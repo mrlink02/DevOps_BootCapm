@@ -7,6 +7,7 @@ variable "aws_region" {
 # Custom Variables
 variable "owner" {
   description = "Owner of the app"
+  default = "jhonmora"
 }
 
 # VPC Variables
@@ -48,11 +49,13 @@ variable "database_username" {
 variable "database_password" {
   description = "Contraseña de la base de datos"
   sensitive   = true
+  default = "Calidad2022*"
 }
 
 variable "public_key" {
   description = "Llave pública"
   sensitive   = true
+  default = "jjjjj"
 }
 
 variable "ami_id" {
