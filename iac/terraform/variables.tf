@@ -55,7 +55,7 @@ variable "database_password" {
 variable "public_key" {
   description = "Llave pública"
   sensitive   = true
-  default = "jjjjj"
+  default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCXb6G47p7ye3+FzBS9DCku8I8Eui7CHjEq+4DPT8X9HkAD9pYu7EleAoLmP4KffCi5DynkS7KANa3VxrUyTScorILWSS0AhYVxHrQT79xFVfapqXZEGtzqTK8W3wmtFYnE0i46XuLSk9WGwm17env2kN1JvyWL52RZZMvVP60mwinmVIMeBTdf9SWwLFyjKksZilBWbmybgqOatuwpfvtMUOuHkQsVKSHBEM5JSYCAOCPOQkHoMDsVoMCX7qh6j6ysDIZ3hcM7uOs2oR1uuc2rhTGJtpqfusdlrCu7HorBH54ZbyneOzGKQB3IAou0tCex+y7Wl6PminZy1V0YGNrh"
 }
 
 variable "ami_id" {
