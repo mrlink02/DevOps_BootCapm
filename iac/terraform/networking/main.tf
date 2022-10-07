@@ -63,7 +63,7 @@ resource "aws_nat_gateway" "nat_gw" {
   depends_on    = [aws_internet_gateway.igw]
 
   tags = {
-    Name  = "NAT Gateway Main",
+    Name  = "jhonmora - NAT Gateway Main",
     Owner = lower(var.owner)
   }
 }
